@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* body {
+  max-width: 1920px;
+  width: 100%;
+} */
+
+.container {
+  max-width: 1720px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+/* -----------левая серая область----------- */
+.header-left-box-content {
+  background: #232323;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------правая  черная область-------- */
+.header-right-box-content {
+  background: #000;
+  width: 100%;
+
+}
+
+.header-box-content {
+  max-width: 1020px;
+  width: 100%;
+  padding-right: 38px;
+}
+
+
+
+
+.header-nav {
+
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 38px; */
+  gap: 150px;
+  margin-top: 52px;
+}
+
+
+
+.nav-logo a {
+  /* display: block; */
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+
+}
+
+.nav-items {
+  display: flex;
+  align-items: flex-end;
+  gap: 70px;
+
+}
+
+
+.header-nav-link {
+  color: #FFF;
+  gap: 70px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+/* .header-nav-link:last-child {
+    padding-left: 125px;
+  } */
+
+
+.hero-img {
+  height: 1080px;
+}
