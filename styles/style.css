@@ -13,9 +13,6 @@ a {
   text-decoration: none;
 }
 
-/* body {
-  max-width: 1920px;
-} */
 
 .container {
   max-width: 1720px;
@@ -32,25 +29,22 @@ a {
 }
 
 .header__box {
-  max-width: 1020px;
-  padding-left: 100px;
+  margin-left: 100px;
+  max-width: 60%;
   /* width: 100%; */
 }
 
 .header__box-nav {
   display: flex;
-  justify-content: space-between;
   padding-top: 52px;
-
-  padding-right: 126px;
-  /* gap: 150px; */
+  padding-right: 125px;
+  gap: 150px;
 }
 
 .nav-logo {
   color: #FFF;
   font-family: 'Mnsr_Bd';
   font-size: 50px;
-
 }
 
 .nav__items {
@@ -58,19 +52,17 @@ a {
   justify-content: space-between;
   gap: 70px;
   align-items: flex-end;
+  /* white-space: nowrap; */
 }
 
 .nav__items-link {
   color: #FFF;
   font-family: 'Mnsr_Md';
   font-size: 25px;
-
-
-  /* align-items: center; */
 }
 
-
 .header__hero {
+  max-width: 40%;
   max-height: 1080px;
   height: 100%;
 }
@@ -83,18 +75,171 @@ a {
 }
 
 .header__box-link {
-  background: linear-gradient(135deg, #767676 0%, #FFF 100%);
-  color: #000;
+
   font-family: 'Mnsr_Bd';
   font-size: 25px;
   padding: 25px 72px;
   text-align: center;
   max-width: 290px;
   width: 100%;
-  /* margin-bottom: 343px; */
 }
 
 .header__content {
   display: flex;
   flex-direction: column;
+  gap: 60px;
+}
+
+/* ------стилизация серой и черной "кнопок" ------*/
+.light_btn {
+  background: linear-gradient(135deg, #767676 0%, #FFF 100%);
+  color: #000;
+}
+
+.dark_btn {
+  background: linear-gradient(135deg, #151515 0%, #A9A9A9 100%);
+  color: white;
+}
+
+/* --------------------------------------------- */
+
+.catalog__box {}
+
+.catalog__title {
+  color: #000;
+  font-family: 'Mnsr_Bd';
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 30px;
+}
+
+.catalog__box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.catalog__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.catalog__link {
+  font-family: 'Mnsr_Bd';
+  font-size: 25px;
+  padding: 25px 72px;
+  text-align: center;
+  max-width: 290px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.catalog__list-item {
+  color: #000;
+  font-family: 'Mnsr_Bd';
+  font-size: 25px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #F4F4F4;
+  padding: 15px 0 37px 0;
+}
+
+.catalog__item-material {
+  color: #000;
+  font-family: 'Mnsr_Md';
+  font-size: 20px;
+}
+
+.catalog__item-text-info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ----------About Section---------------- */
+.about__title {
+  color: #000;
+  font-family: 'Mnsr_Bd';
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.about__box {
+  background: #232323;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about__text {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Mnsr_Md';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.about__link {
+  font-family: 'Mnsr_Bd';
+  font-size: 25px;
+  padding: 25px 72px;
+  text-align: center;
+  max-width: 290px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.about__box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* --------Delivery Section------------- */
+.delivery__title {
+  color: #000;
+  font-family: 'Mnsr_Bd';
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.delivery__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 66px;
+}
+
+.delivery__content-info {
+  color: #000;
+  font-family: 'Mnsr_Md';
+  font-size: 40px;
+  padding-top: 242px;
+  padding-bottom: 55px;
+}
+
+.delivery__content-link {
+  font-family: 'Mnsr_Bd';
+  font-size: 25px;
+  padding: 25px 72px;
+  text-align: center;
+  max-width: 290px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.delivery__pict {
+  max-height: 682px;
 }
